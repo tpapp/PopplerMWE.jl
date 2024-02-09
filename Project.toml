@@ -1,0 +1,17 @@
+name = "PopplerMWE"
+uuid = "6257c207-8be3-489a-a029-ba843f793521"
+authors = ["Tamás K. Papp <tkpapp@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Poppler_jll = "9c32591e-4766-534b-9725-b71a8799265b"
+
+[compat]
+julia = "1.8"
+Poppler_jll = "23"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
